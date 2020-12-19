@@ -1,0 +1,64 @@
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: lightgray;
+  width: 90%;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.main-heading span {
+  font-size: 3.5rem;
+  font-family: "Merriweather", serif;
+  color: #fff;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact {
+  margin-top: 4rem;
+}
+
+.email {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgray;
+}
+
+.email i {
+  margin-right: 10px;
+}
+
+.email:hover {
+  color: #fff;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: auto;
+}
+
+.social-link i {
+  font-size: 1.5rem;
+  color: lightgray;
+}
+
+.social-link:hover i {
+  color: #fff;
+}
